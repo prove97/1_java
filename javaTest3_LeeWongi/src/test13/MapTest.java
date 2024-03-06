@@ -18,9 +18,9 @@ public class MapTest {
 		date[1] = new Date(2016-1900, 2-1, 25);
 		date[2] = new Date(2016-1900, 1-1, 23);
 		
-		 map.put("삼성 갤럭시S7", new Inventory("삼성 갤럭시S7", date[0], 30));
-		 map.put("LG G5", new Inventory("LG G5", date[1], 20));
-		 map.put("애플 아이패드 Pro", new Inventory("애플 아이패드 Pro", date[2], 15));
+		map.put("삼성 갤럭시S7", new Inventory("삼성 갤럭시S7", date[0], 30));
+		map.put("LG G5", new Inventory("LG G5", date[1], 20));
+		map.put("애플 아이패드 Pro", new Inventory("애플 아이패드 Pro", date[2], 15));
 		
 		// 맵에 기록된 정보를 연속 출력한다. EntrySet() 사용한다.
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일");
